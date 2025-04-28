@@ -1,4 +1,4 @@
-﻿INSERT INTO Events (Title, Description, Start, "End", AllDay, CreatedAt)
+﻿ INSERT INTO Events (Title, Description, Start, "End", AllDay, CreatedAt)
 VALUES
 ('Blazor Conference', 'Conference about Blazor', DATEADD(DAY, 2, GETDATE()), null, 1, GETDATE()),
 ('Meet Bill', 'Meeting with Bill Smith', GETDATE(), DATEADD(HOUR, 1, GETDATE()), 0, GETDATE()),
